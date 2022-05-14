@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  height: 406px;
+  width: 350px;
+  margin: 40px auto;
+  background-color: #9fd29f;
+  border: 3px inset #eac595;
+  border-radius: 17px;
+  padding: 40px 30px;
+}
+.screen {
+  height: 80px;
+  width: 300px;
+  margin: 10px;
+  padding: 16px 10px;
+  border-radius: 11px;
+  background-color: antiquewhite;
+  font-size: 25px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #0c620c;
+}
+.prevOperation{
+  top: 95px;
+  text-align: right;
+  font: normal normal 28px Arial;
+}
+#nbreAffichee {
+  height: 50px;
+  width: 300px;
+  text-align: right;
+  font: normal normal 43px Arial;
+}
+#nbreAffichee span {
+  opacity: 0.5;
+}
+
+.keypad {
+  width: 290px;
+  height: 206px;
+  border: 1px dotted #27b04a;
+  border-radius: 14px;
+  margin: 14px;
+  padding: 12px;
+}
+
+input {
+  height: 47px;
+  width: 65px;
+  font-size: 25px;
+  margin: 2px;
+  padding: 4px;
+  color: white;
+  border: 2px solid #5fae5f;
+  border-radius: 10px;
+  background-color: #9fd29f;
+  font: bold normal 30px Verdana;
+}
+input:hover {
+  background-color: #0c620c;
+}
+/* input[value="-"] {
+    color: white;
+      background-color: #5fae5f;
+}
+input[name="+"] {
+    color: white;
+      background-color: #5fae5f;
+}
+input[name="*"] {
+    color: white;
+      background-color: #5fae5f;
+}
+input[name="/"] {
+    color: white;
+      background-color: #5fae5f;
+}
+input[name="="] {
+    color: white;
+      background-color: #5fae5f;
+} */
+
+.specialbuttons {
+  height: 50px;
+  width: 100px;
+  margin: 0px auto;
+  display: inline;
+}
+.specialbuttons input {
+  width: 77px;
+  font-size: 20px;
+  background-color: #0c620c;
+}
+/*#nbreAffichee{
+  display: none;
+}
+#nbreAffichee.is-visible{
+  display: block;
+}*/

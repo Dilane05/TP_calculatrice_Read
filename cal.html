@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <div class="prevOperation">0</div>
+        <div id="nbreAffichee"><span>0</span></div>
+      </div>
+      <div class="specialbuttons">
+        <input
+          type="button"
+          name="reset"
+          value="Reset"
+          onclick="boutton_special(this.name)"
+        />
+        <input
+          type="button"
+          name="bs"
+          value="C"
+          onclick="boutton_special(this.name)"
+        />
+        <input
+          type="button"
+          name="on"
+          value="ON"
+          id="powerOn"
+        />
+        
+        <input
+          type="button"
+          name="OFF"
+          value="OFF"
+          id="powerOff"
+        />
+        <!-- <button class="button">Click Me</button> -->
+      </div>
+      <div class="keypad">
+        <input type="button" name="1" value="1" onclick="boutton(this.name)" />
+        <input type="button" name="2" value="2" onclick="boutton(this.name)" />
+        <input type="button" name="3" value="3" onclick="boutton(this.name)" />
+        <input type="button" name="+" value="+" onclick="boutton(this.name)" />
+        <input type="button" name="4" value="4" onclick="boutton(this.name)" />
+        <input type="button" name="5" value="5" onclick="boutton(this.name)" />
+        <input type="button" name="6" value="6" onclick="boutton(this.name)" />
+        <input type="button" name="-" value="-" onclick="boutton(this.name)" />
+        <input type="button" name="7" value="7" onclick="boutton(this.name)" />
+        <input type="button" name="8" value="8" onclick="boutton(this.name)" />
+        <input type="button" name="9" value="9" onclick="boutton(this.name)" />
+        <input type="button" name="*" value="*" onclick="boutton(this.name)" />
+        <input type="button" name="." value="." onclick="boutton(this.name)" />
+        <input type="button" name="0" value="0" onclick="boutton(this.name)" />
+        <input type="button" name="=" value="=" onclick="boutton(this.name)" />
+        <input type="button" name="/" value="/" onclick="boutton(this.name)" />
+      </div>
+    </div>
+  </body>
+  <script src="cal.js"></script>
+</html>
